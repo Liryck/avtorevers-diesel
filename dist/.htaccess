@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteBase /
+
+#Remove duplicate slashes
+RewriteCond %{THE_REQUEST} //
+RewriteRule .* https://%{HTTP_HOST}/$0 [R=301,L]
+
+#If the request is .html, redirect to the URL without the extension, adding a trailing slash
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+RewriteRule ^([^.]+)\.html$ /$1/ [R=301,L]
+
+#Check if there is a trailing slash in the query
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+RewriteCond %{REQUEST_URI} !/$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/?$ /$1/ [R=301,L]
+
+#If the file or directory does not exist, add .html to the request 
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)/$ /$1.html [L]
+
+#Redirecting requests to index.php
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]

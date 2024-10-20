@@ -1,0 +1,49 @@
+.steps {
+	padding-top: 60px;
+	width: 100%;
+	min-height: 300px;
+	background: #fff;
+
+	&_pb60 {
+		padding-bottom: 60px;
+	}
+
+	&__list {
+		margin-top: 30px;
+		padding-left: 0;
+		width: 100%;
+		min-height: 180px;
+		display: grid;
+		grid-template: minmax(40px, auto) / repeat(2, 1fr);
+		grid-auto-rows: minmax(40px, auto);
+		gap: 20px;
+		list-style-type: decimal;
+	}
+
+	&__step {
+		position: relative;
+		margin-left: 30px;
+		color: $text-color;
+		font-size: 26px;
+		line-height: 40px;
+		font-weight: 500;
+		// &::marker {
+		// 	z-index: 1;
+		// 	color: #fff;
+		// }
+		// &::before {
+		// 	content: "";
+		// 	position: absolute;
+		// 	z-index: -1;
+		// 	display: block;
+		// 	top: 0;
+		// 	left: -45px;
+		// 	width: 40px;
+		// 	height: 40px;
+		// 	border-radius: 100%;
+		// 	background: $main-gradient;
+		// }
+	}
+
+
+}

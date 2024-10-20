@@ -1,0 +1,1006 @@
+@media (max-width: 1400px) {
+	.container {
+		width: 1140px;
+	}
+
+	.title {
+		font-size: 28px;
+		line-height: 42px;
+
+		&_fz24 {
+			font-size: 24px;
+			line-height: 36px;
+		}
+
+		&_fz20 {
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+
+	.promo {
+		&__link {
+			font-size: 26px;
+			line-height: 32px;
+		}
+
+		&__icon {
+			width: 32px;
+			height: 32px;
+		}
+
+		&__title {
+			font-size: 26px;
+		}
+
+		&__descr {
+			font-size: 22px;
+			line-height: 33px;
+
+			&-list {
+				li {
+					font-size: 22px;
+					line-height: 33px;  
+				}
+			}
+		}
+	}
+
+	.steps {
+		&__step {
+			font-size: 24px;
+			line-height: 36px;
+		}
+	}
+
+	.footer {
+		&__descr {
+			font-size: 15px;
+		}
+
+		&__link {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+
+	.header {
+		&__sitename {
+			display: none;
+		}
+		&__menu {
+			&-item {
+				padding: 0 10px;
+			}
+		}
+	}
+
+	.pop-up {
+		&__text, &__link, span {
+			font-size: 17px;
+		}
+
+		&__close {
+			right: 30px;
+		}
+	}
+
+	.title {
+		font-size: 24px;
+		line-height: 36px;
+
+		&_fz24 {
+			font-size: 20px;
+			line-height: 33px;
+		}
+
+		&_fz20 {
+			font-size: 18px;
+			line-height: 27px;
+		}
+	}
+
+	.promo {
+		&__link {
+			font-size: 22px;
+			line-height: 30px;
+		}
+
+		&__title {
+			font-size: 22px;
+		}
+
+		&__descr {
+			font-size: 20px;
+			line-height: 30px;
+			&-list {
+				li {
+					font-size: 20px;
+					line-height: 30px;
+				}
+			}
+		}
+
+		&__404 {
+			font-size: 200px;
+		}
+	}
+
+	.advantages {
+		&__descr {
+			font-size: 16px;
+			line-height: 24px;
+		}
+	}
+
+	.types {
+		.title_fz20 {
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		&__wrapper {
+			gap: 20px;
+		}
+
+		&__descr {
+			margin-top: 10px;
+		}
+	}
+
+	.cities {
+		&__wrapper {
+			margin: 30px 0;
+		}
+		&__list {
+			li {
+				font-size: 22px;
+				line-height: 33px;
+			}
+		}
+	}
+
+	.services {
+		&__wrapper {
+			grid-template: minmax(350px, auto) / repeat(3, 1fr);
+			gap: 20px;
+		}
+	}
+
+	.cta {
+		min-height: 200px;
+		padding: 60px 0;
+		&__form {
+			margin-top: 30px;
+			.button_h55 {
+				height: 40px;
+				border-radius: 20px;
+				font-size: 16px;
+			}
+			&-input {
+				height: 40px;
+				font-size: 24px;
+				&_h100 {
+					height: 100px;
+				}
+			}
+		}
+	}
+
+	.steps {
+		&__step {
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+
+	.footer {
+		padding-top: 40px;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.header {
+		height: 70px;
+
+		&__wrapper {
+			max-height: 70px;
+		}
+
+		&__logo {
+			&-img {
+				width: 70px;
+				height: 70px;
+			}
+		}
+
+		&__sitename {
+			display: block;
+			color: $first-color;
+			&:hover {
+				color: $second-color;
+			}
+		}
+
+		&__menu, .button, .header__lang {
+			display: none;
+		}
+
+		&__phone {
+			display: flex;
+		}
+
+		&__hamburger {
+			display: block;
+		}
+	}
+
+	.pop-up {
+		top: 70px;
+
+		&__link {
+			display: none;
+		}
+	}
+
+	.promo {
+		height: calc(100vh - 70px);
+		margin-top: 70px;
+
+		&__wrapper {
+			height: calc(100vh - 70px);
+			grid-template: auto / 0.75fr 1.25fr;
+			column-gap: 30px;
+		}
+
+		.title {
+			font-size: 22px;
+			line-height: 33px;
+		}
+
+		&__title {
+			font-size: 20px;
+			text-align: center;
+		}
+
+		&__link {
+			font-size: 20px;
+			line-height: 26px;
+		}
+
+		&__icon {
+			width: 28px;
+			height: 28px;
+		}
+
+		&__descr {
+			font-size: 18px;
+			line-height: 27px;
+			&-list {
+				li {
+					font-size: 18px;
+					line-height: 27px;
+				}
+			}
+		}
+
+		&__404 {
+			font-size: 125px;
+		}
+	}
+
+	.advantages {
+		padding-top: 80px;
+
+		&_pt60 {
+			padding-top: 50px;
+		}
+		
+		&__items {
+			margin-top: 20px;
+			grid-template: minmax(100px, auto) / repeat(2, 1fr);
+		}
+
+		&__icon {
+			svg {
+				height: 80px;
+			}
+		}
+	}
+
+	.types {
+		.title_fz20 {
+			font-size: 20px;
+			line-height: 30px;
+		}
+
+		&__wrapper {
+			margin-top: 10px;
+			grid-template: minmax(200px, auto) / repeat(2, 1fr);
+			gap: 30px;
+		}
+
+		&__img {
+			width: 70%;
+		}
+
+		&__descr {
+			font-size: 18px;
+			line-height: 27px;
+		}
+	}
+
+	.cities {
+		&__wrapper {
+			grid-template: auto / 1fr;
+			grid-auto-rows: auto;
+			gap: 20px;
+		}
+
+		&__img {
+			display: block;
+			margin: 0 auto;
+			width: 70%;
+		}
+	}
+
+	.services {
+		&__wrapper {
+			grid-template: minmax(350px, auto) / repeat(2, 1fr);
+		}
+	}
+
+	.cta {
+		&__form {
+			&-input {
+				font-size: 22px;
+			}
+		}
+	}
+
+	.contacts {
+		&__left {
+			padding: 30px;
+		}
+
+		&_mt90 {
+			margin-top: 70px;
+		}
+	}
+
+	.price {
+		&_mt90 {
+			margin-top: 70px;
+		}
+	}
+
+	.text {
+		&_mt90 {
+			margin-top: 70px;
+		}
+	}
+
+	.footer {
+		&__wrapper {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		.column2, .column3 {
+			display: none;
+		}
+	}
+}
+
+
+
+@media (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.header {
+		&__sitename {
+			display: none;
+		}
+	}
+
+	.pop-up {
+		&__text, &__link, span {
+			font-size: 17px;
+			text-align: center;
+		}
+
+		&__close {
+			right: 20px;
+		}
+	}
+
+	.promo {
+		&__wrapper {
+			grid-template: auto / 1fr;
+		}
+
+		&__left {
+			display: none;
+		}
+
+		&__right {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.title_tal {
+				text-align: center;
+			}
+		}
+
+		&__link {
+			justify-content: center;
+		}
+
+		&__descr {
+			text-align: center;
+			&-list {
+				list-style-type: none;
+				padding: 0;
+			}
+		}
+	}
+
+	.cities {
+		&__list {
+			li {
+				font-size: 20px;
+				line-height: 30px;
+			}
+		}
+	}
+
+	.services {
+		.title_fz20 {
+			font-size: 17px;
+			line-height: 24px;
+		}
+
+		&__price {
+			margin: 10px 0;
+			font-size: 18px;
+		}
+	}
+
+	.cta {
+		&__form {
+			gap: 20px;
+			&-string {
+				grid-template-columns: 1fr;
+				&_col3 {
+					grid-template-columns: 1fr;
+				}
+			}
+		}
+	}
+
+	.steps {
+		&__list {
+			grid-template: minmax(40px, auto) / 1fr;
+		}
+	}
+
+	.text {
+		.button_mt40 {
+			margin-top: 30px;
+		}
+	}
+
+	.contacts {
+		&__wrapper {
+			grid-template-columns: 1fr;
+		}
+
+		&__map {
+			border-radius: 40px 40px 0 0;
+			height: 350px;
+			width: 100%;
+		}
+
+		&__left {
+			height: 350px;
+		}
+
+		&__link {
+			justify-content: center;
+		}
+	}
+
+	.price {
+		th {
+			text-align: center;
+			font-size: 22px;
+		}
+		td {
+			font-size: 18px;
+			padding: 10px 20px;
+
+			&:nth-child(1) {
+                width: 65%;
+            }
+            &:nth-child(2) {
+                width: 35%;
+            }
+		}
+	}
+}
+
+
+@media (max-width: 576px) {
+	.container {
+		width: 85%;
+	}
+
+	.header {
+		height: 60px;
+
+		&__wrapper {
+			max-height: 60px;
+		}
+
+		&__logo {
+			&-img {
+				width: 60px;
+				height: 60px;
+			}
+		}
+
+		&__phone {
+			span {
+				display: none;
+			}
+		}
+
+		&__hamburger {
+			margin-left: 10px;
+		}
+	}
+
+	.pop-up {
+		top: 60px;
+
+		&__text {
+			span {
+				display: none;
+			}
+		}
+
+		&__close {
+			right: 13px;
+			font-size: 23px;
+		}
+	}
+
+	.mob-menu {
+		padding: 20px;
+		top: 60px;
+		width: 80%;
+		height: calc(100vh - 60px);
+
+		&__item {
+			font-size: 18px;
+		}
+
+		&__link {
+			font-size: 18px;
+			&_fz18 {
+				font-size: 16px;
+				line-height: 24px;
+			}
+		}
+	}
+
+	.promo {
+		height: calc(100vh - 60px);
+		margin-top: 60px;
+
+		.title {
+			font-size: 20px;
+			line-height: 30px;
+		}
+
+		&__title {
+			margin-bottom: 15px;
+		}
+
+		&__link {
+			&:nth-child(2) {
+				margin-top: 10px;
+				font-size: 14px;
+			}
+		}
+
+		&__icon {
+			width: 22px;
+			height: 22px;
+		}
+
+		&__descr {
+			margin: 10px 0;
+		}
+	}
+
+	.title {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.advantages {
+		padding-top: 50px;
+
+		&_pt60 {
+			padding-top: 40px;
+		}
+
+		&__items {
+			grid-template: minmax(100px, auto) / 1fr;
+			gap: 20px;
+		}
+
+		&__icon {
+			margin-bottom: 10px;
+			svg {
+				height: 60px;
+			}
+		}
+
+		&__descr {
+			margin-top: 5px;
+		}
+	}
+
+	.types {
+		padding: 50px 0;
+		&__wrapper {
+			grid-template: minmax(200px, auto) / 1fr;
+		}
+
+		&__img {
+			width: 60%;
+		}
+
+		&__descr {
+			margin-top: 0;
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		&__wrapper {
+			gap: 20px;
+		}
+	}
+
+	.cities {
+		padding: 50px 0;
+
+		&__wrapper {
+			margin: 20px 0;
+		}
+
+		&__list {
+			li {
+				font-size: 18px;
+				line-height: 27px;
+			}
+		}
+	}
+
+	.services {
+		padding: 50px 0;
+		&__wrapper {
+			grid-template: minmax(250px, auto) / 1fr;
+		}
+	}
+
+	.cta {
+		padding: 50px 0;
+		&__form {
+			&-input {
+				font-size: 20px;
+			}
+		}
+	}
+
+	.steps {
+		padding-top: 50px;
+
+		&_pb60 {
+			padding-bottom: 50px;
+		}
+
+		&__list {
+			margin-top: 20px;
+		}
+	}
+
+	.text {
+		padding: 50px 0;
+
+		&_mt90 {
+			margin-top: 60px;
+			padding-top: 40px;
+			padding-bottom: 0;
+		}
+
+		&__wrapper {
+			margin-top: 15px;
+			overflow-y: scroll;
+			scrollbar-width: none;
+			height: 600px;
+
+			&::-webkit-scrollbar {
+				display: none; /* Для Chrome, Safari и Edge */
+			}
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 24px;
+		}
+
+		&__list {
+			li {
+				font-size: 16px;
+				line-height: 24px;
+			}
+		}
+	}
+
+	.contacts {
+		padding-top: 50px;
+
+		&_mt90 {
+			margin-top: 60px;
+			padding: 40px 0;
+		}
+
+		&__left {
+			padding: 20px 15px;
+		}
+
+		&__link {
+			justify-content: start;
+			font-size: 15px;
+
+			&_mfz14 {
+				font-size: 14px;
+			}
+		}
+
+		&__icon {
+			margin-right: 7px;
+			svg {
+				width: 25px;
+			}
+		}
+	}
+
+	.price {
+		&_mt90 {
+			margin-top: 60px;
+		}
+
+		&__table {
+			margin-top: 20px;
+			th {
+				padding: 10px;
+				font-size: 18px;
+			}
+
+			td {
+				padding: 10px;
+				font-size: 15px;
+			}
+		}
+	}
+
+	.footer {
+		padding-bottom: 10px;
+		&__wrapper {
+			grid-template-columns: 1fr;
+		}
+
+		&__link {
+			font-size: 15px;
+		}
+
+		.liryck {
+			font-size: 12px;
+		}
+	}
+
+	.overlay {
+		.modal {
+			width: 80%;
+			padding: 20px;
+
+			&__close {
+				top: -50px;
+				left: -20px;
+			}
+
+			&__descr {
+				font-size: 18px;
+				margin-bottom: 25px;
+			}
+
+			.form-modal {
+				&__input {
+					height: 30px;
+					padding: 5px 10px;
+
+					&_h100 {
+						height: 70px;
+					}
+				}
+			}
+
+			.title_mb20 {
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	.phone {
+		bottom: 25px;
+		right: 25px;
+
+		&__desctop {
+			display: none;
+		}
+
+		&__mob {
+			display: block;
+		}
+
+		&__link {
+			width: 50px;
+			height: 50px;
+			&:hover {
+				transform: translateX(10px);
+				transition: 0.5s linear;
+			}
+		}
+
+		&__icon {
+			width: 50px;
+			height: 50px;
+		}
+
+		&__descr {
+			height: 40px;
+		}
+	}
+}
+
+@media (max-width: 440px) {
+
+	.promo {
+
+		&_palyvo-bg {
+			background: url(../../img/main-bg/mob/remont-toplivnoy.webp) center center/cover no-repeat;
+		}
+	
+		&_tnvd-bg {
+			background: url(../../img/main-bg/mob/remont-tnvd.webp) center center/cover no-repeat;
+		}
+	
+		&_d-tnvd-bg {
+			background: url(../../img/main-bg/mob/diagnostyka-tnvd.webp) center center/cover no-repeat;
+		}
+	
+		&_fors-bg {
+			background: url(../../img/main-bg/mob/remont-forsunok.webp) center center/cover no-repeat;
+		}
+	
+		&_fors-bosch-bg {
+			background: url(../../img/main-bg/mob/remont-forsunok-bosch.webp) center center/cover no-repeat;
+		}
+	
+		&_fors-siemens-bg {
+			background: url(../../img/main-bg/mob/remont-forsunok-siemens.webp) center center/cover no-repeat;
+		}
+	
+		&_fors-denso-bg {
+			background: url(../../img/main-bg/mob/remont-forsunok-denso.webp) center center/cover no-repeat;
+		}
+	
+		&_fors-delphi-bg {
+			background: url(../../img/main-bg/mob/remont-forsunok-delphi.webp) center center/cover no-repeat;
+		}
+	
+		&_fors-cr-bg {
+			background: url(../../img/main-bg/mob/remont-forsunok-common-rail.webp) center center/cover no-repeat;
+		}
+	
+		&_d-fors-bg {
+			background: url(../../img/main-bg/mob/diagnostyka-forsunok.webp) center center/cover no-repeat;
+		}
+	
+		&_dvygun-bg {
+			background: url(../../img/main-bg/mob/remont-diesel-dvygun.webp) center center/cover no-repeat;
+		}
+	
+		&_d-dvygun-bg {
+			background: url(../../img/main-bg/mob/diagnostyka-diesel-dvygun.webp) center center/cover no-repeat;
+		}
+	
+		&_d-palyvo-bg {
+			background: url(../../img/main-bg/mob/diagnostyka-ta.webp) center center/cover no-repeat;
+		}
+	
+		&_dpf-bg {
+			background: url(../../img/main-bg/mob/chistka-dpf.webp) center center/cover no-repeat;
+		}
+	
+		&_zam-dpf-bg {
+			background: url(../../img/main-bg/mob/remont-toplivnoy.webp) center center/cover no-repeat;
+		}
+	
+		&_turbina-bg {
+			background: url(../../img/main-bg/mob/remont-turbin.webp) center center/cover no-repeat;
+		}
+	
+	}
+
+}
+
+@media (max-width: 359px) {
+	.contacts {
+
+		&__link {
+
+			&_mfz14 {
+				font-size: 13px;
+			}
+		}
+	}
+}
+
+@media (max-width: 339px) {
+	.promo {
+		&__link {
+			&:nth-child(2) {
+				font-size: 12px;
+			}
+		}
+	}
+
+	.contacts {
+		&__link {
+			font-size: 15px;
+		}
+	}
+
+	.overlay {
+		.modal {
+			&__close {
+				top: -40px;
+			}
+			.form-modal {
+				margin-top: 0;
+				&__input {
+					margin: 7px 0;
+					font-size: 18px;
+				}
+			}
+		}
+		
+	}
+}

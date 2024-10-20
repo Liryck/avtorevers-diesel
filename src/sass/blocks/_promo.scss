@@ -1,0 +1,152 @@
+.promo {
+	width: 100%;
+	height: calc(100vh - 90px);
+	margin-top: 90px;
+	
+	&_palyvo-bg {
+		background: url(../../img/main-bg/remont-toplivnoy.webp) center center/cover no-repeat;
+	}
+
+	&_tnvd-bg {
+		background: url(../../img/main-bg/remont-tnvd.webp) center center/cover no-repeat;
+	}
+
+	&_d-tnvd-bg {
+		background: url(../../img/main-bg/diagnostyka-tnvd.webp) center center/cover no-repeat;
+	}
+
+	&_fors-bg {
+		background: url(../../img/main-bg/remont-forsunok.webp) center center/cover no-repeat;
+	}
+
+	&_fors-bosch-bg {
+		background: url(../../img/main-bg/remont-forsunok-bosch.webp) center center/cover no-repeat;
+	}
+
+	&_fors-siemens-bg {
+		background: url(../../img/main-bg/remont-forsunok-siemens.webp) center center/cover no-repeat;
+	}
+
+	&_fors-denso-bg {
+		background: url(../../img/main-bg/remont-forsunok-denso.webp) center center/cover no-repeat;
+	}
+
+	&_fors-delphi-bg {
+		background: url(../../img/main-bg/remont-forsunok-delphi.webp) center center/cover no-repeat;
+	}
+
+	&_fors-cr-bg {
+		background: url(../../img/main-bg/remont-forsunok-common-rail.webp) center center/cover no-repeat;
+	}
+
+	&_d-fors-bg {
+		background: url(../../img/main-bg/diagnostyka-forsunok.webp) center center/cover no-repeat;
+	}
+
+	&_dvygun-bg {
+		background: url(../../img/main-bg/remont-diesel-dvygun.webp) center center/cover no-repeat;
+	}
+
+	&_d-dvygun-bg {
+		background: url(../../img/main-bg/diagnostyka-diesel-dvygun.webp) center center/cover no-repeat;
+	}
+
+	&_d-palyvo-bg {
+		background: url(../../img/main-bg/diagnostyka-ta.webp) center center/cover no-repeat;
+	}
+
+	&_dpf-bg {
+		background: url(../../img/main-bg/chistka-dpf.webp) center center/cover no-repeat;
+	}
+
+	&_zam-dpf-bg {
+		background: url(../../img/main-bg/remont-toplivnoy.webp) center center/cover no-repeat;
+	}
+
+	&_turbina-bg {
+		background: url(../../img/main-bg/remont-turbin.webp) center center/cover no-repeat;
+	}
+
+	&__wrapper {
+		height: calc(100vh - 90px);
+		width: 100%;
+		display: grid;
+		grid-template: auto / repeat(2, 1fr);
+		grid-auto-rows: auto;
+		align-items: center;
+	}
+
+	&__left {
+		display: flex;
+		justify-content: center;
+	}
+	
+	&__img {
+		width: 80%;
+		height: auto;
+	}
+
+	&__right {
+		display: block;
+	}
+
+	&__title {
+		margin-bottom: 20px;
+		font-size: 30px;
+		font-weight: 500;
+		color: #fff;
+	}
+
+	&__icon {
+		width: 36px;
+		height: 36px;
+		margin-right: 10px;
+		svg {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__link {
+		display: flex;
+		align-items: center;
+		margin-top: 15px;
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: 700;
+		color: $title-color;
+		text-decoration: none;
+		transition: 0.75s;
+		&:hover {
+			color: $title-color;
+			transform: scale(1.05);
+		}
+		&:nth-child(1) {
+			margin-top: 0;
+		}
+	}
+
+	&__descr {
+		margin: 15px 0;
+		color: $title-color;
+		font-size: 24px;
+		line-height: 36px;
+		font-weight: 500;
+		&-list {
+			li {
+				color: $title-color;
+				font-size: 24px;
+				line-height: 36px;
+				font-weight: 500;
+			}
+			
+		}
+	}
+
+	&__404 {
+		color: $title-color;
+		font-size: 250px;
+		text-align: center;
+		font-weight: 700;
+	}
+}
