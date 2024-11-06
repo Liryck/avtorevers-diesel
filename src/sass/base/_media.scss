@@ -457,6 +457,17 @@
 		}
 	}
 
+	.reviews {
+		&__wrapper {
+			justify-content: space-between;
+		}
+
+		&__img {
+			width: 50%;
+			margin-left: 0;
+		}
+	}
+
 	.cities {
 		&__list {
 			li {
@@ -683,6 +694,17 @@
 
 		&__wrapper {
 			gap: 20px;
+		}
+	}
+
+	.reviews {
+		&__wrapper {
+			flex-direction: column;
+		}
+
+		&__img {
+			width: 75%;
+			margin-top: 20px;
 		}
 	}
 
